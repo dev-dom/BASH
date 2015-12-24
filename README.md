@@ -1,2 +1,2 @@
 # BASH
-All purpose code ready to be modified and used for sysadmin tasks
+General purpose code ready to be modified and used for real life sysadmin tasks
