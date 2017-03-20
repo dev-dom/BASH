@@ -22,3 +22,13 @@ SCRIPT='
 '
 /usr/bin/expect << HERE
 $SCRIPT
+# NOTE 1
+# You can Hardcode the password with the below code [BAD PRACTICE]
+# pass="password"
+# export pass
+ 
+# NOTE 2
+# You can also provide the list of hosts to connect from a file within the expect routine
+# set f [open "./HostsUserFile.txt" r]
+# set hosts [split [read -nonewline $f] "\n"]
+# close $f
